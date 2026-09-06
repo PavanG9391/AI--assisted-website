@@ -55,7 +55,7 @@ export default function ContactPage() {
           <section className="panel">
             <h2>Google Maps Placeholder</h2>
             <div className="map-placeholder">
-              <img src="/images/map-placeholder.png" alt="Illustrated map placeholder for the campus location" />
+              <img src={`${import.meta.env.BASE_URL}images/map-placeholder.png`} alt="Illustrated map placeholder for the campus location" />
               <p>Map embed placeholder for campus or support office location.</p>
             </div>
           </section>

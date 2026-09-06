@@ -40,7 +40,7 @@ export default function Hero() {
 
         {/* The visual panel is reinforcing the education theme with a large illustrative image. */}
         <div className="hero__visual" aria-hidden="true">
-          <img src="/images/hero-education.png" alt="Stylized education dashboard illustration" />
+          <img src={`${import.meta.env.BASE_URL}images/hero-education.png`} alt="Stylized education dashboard illustration" />
         </div>
       </div>
     </section>

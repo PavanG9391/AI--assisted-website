@@ -1,3 +1,5 @@
+const BASE_URL = import.meta.env.BASE_URL;
+
 // The course catalogue is holding all learning content as local static data.
 export const courses = [
   {
@@ -9,8 +11,8 @@ export const courses = [
     level: 'Beginner',
     description:
       'Build a practical foundation in artificial intelligence, from core concepts and ethics to real-world classroom and research applications.',
-    image: '/images/course-ai.jpg',
-    banner: '/images/banner-ai.png',
+    image: `${BASE_URL}images/course-ai.jpg`,
+    banner: `${BASE_URL}images/banner-ai.png`,
     featured: true,
     rating: 4.9,
     students: '12.4k',
@@ -42,8 +44,8 @@ export const courses = [
     level: 'Intermediate',
     description:
       'Learn how to collect, clean, analyze, and communicate data insights for academic and business decision making.',
-    image: '/images/course-data.jpg',
-    banner: '/images/banner-data.png',
+    image: `${BASE_URL}images/course-data.jpg`,
+    banner: `${BASE_URL}images/banner-data.png`,
     featured: true,
     rating: 4.8,
     students: '9.1k',
@@ -75,8 +77,8 @@ export const courses = [
     level: 'Beginner',
     description:
       'Create intuitive, accessible learning experiences with design thinking, user research, and interface principles.',
-    image: '/images/course-design.jpg',
-    banner: '/images/banner-design.png',
+    image: `${BASE_URL}images/course-design.jpg`,
+    banner: `${BASE_URL}images/banner-design.png`,
     featured: true,
     rating: 4.7,
     students: '8.6k',
@@ -108,8 +110,8 @@ export const courses = [
     level: 'Intermediate',
     description:
       'Explore modern strategy frameworks, innovation models, and team decision-making for real-world organizational success.',
-    image: '/images/course-buisness.jpg',
-    banner: '/images/banner-buisness.png',
+    image: `${BASE_URL}images/course-buisness.jpg`,
+    banner: `${BASE_URL}images/banner-buisness.png`,
     featured: false,
     rating: 4.6,
     students: '6.8k',
@@ -141,8 +143,8 @@ export const courses = [
     level: 'Beginner',
     description:
       'Master planning, scheduling, communication, and risk management for academic and professional projects.',
-    image: '/images/course-project.jpg',
-    banner: '/images/banner-project.png',
+    image: `${BASE_URL}images/course-project.jpg`,
+    banner: `${BASE_URL}images/banner-project.png`,
     featured: false,
     rating: 4.8,
     students: '10.2k',
@@ -174,8 +176,8 @@ export const courses = [
     level: 'Intermediate',
     description:
       'Strengthen literature review, argument structure, citation, and publication-ready academic writing skills.',
-    image: '/images/course-research.jpg',
-    banner: '/images/banner-research.png',
+    image: `${BASE_URL}images/course-research.jpg`,
+    banner: `${BASE_URL}images/banner-research.png`,
     featured: true,
     rating: 5.0,
     students: '15.7k',
@@ -207,8 +209,8 @@ export const courses = [
     level: 'Beginner',
     description:
       'Learn the essentials of cybersecurity hygiene, risk awareness, and safe digital practices for modern learners.',
-    image: '/images/course-cyber.jpg',
-    banner: '/images/banner-security.png',
+    image: `${BASE_URL}images/course-cyber.jpg`,
+    banner: `${BASE_URL}images/banner-security.png`,
     featured: false,
     rating: 4.7,
     students: '7.4k',
@@ -242,19 +244,19 @@ export const testimonials = [
     name: 'Elena Rodriguez',
     role: 'Postgraduate Student',
     text: 'The platform feels polished and easy to use. The course layouts and support sections make it feel like a real university learning portal.',
-    image: '/images/testimonial-1.svg',
+    image: `${BASE_URL}images/testimonial-1.svg`,
   },
   {
     name: 'Marcus Hill',
     role: 'Research Assistant',
     text: 'I like how the course detail page balances clarity, structure, and accessibility. It is ideal for comparing AI-assisted and manual development work.',
-    image: '/images/testimonial-2.svg',
+    image: `${BASE_URL}images/testimonial-2.svg`,
   },
   {
     name: 'Sara Khan',
     role: 'Online Learner',
     text: 'The responsive design, clear navigation, and helpful FAQs create a strong learning experience on mobile and desktop.',
-    image: '/images/testimonial-3.svg',
+    image: `${BASE_URL}images/testimonial-3.svg`,
   },
 ];
 
