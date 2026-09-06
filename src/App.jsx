@@ -59,7 +59,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/AI--assisted-website">
       <ScrollToTop />
       <Layout />
     </BrowserRouter>
